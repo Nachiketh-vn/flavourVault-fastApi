@@ -3,7 +3,7 @@ from pydantic import BaseModel
 import os
 from google import genai
 
-gemini_client = genai.Client(api_key="AIzaSyC--gsEjV_QViU9VLd8u_kum0E8XLqmv2I")
+gemini_client = genai.Client(api_key="")
 
 app = FastAPI()
 
